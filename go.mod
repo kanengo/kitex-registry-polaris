@@ -1,4 +1,4 @@
-module github.com/kitex-contrib/registry-polaris
+module github.com/kanengo/kitex-registry-polaris
 
 go 1.16
 
