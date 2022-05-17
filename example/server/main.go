@@ -25,7 +25,7 @@ import (
 	"github.com/cloudwego/kitex-examples/hello/kitex_gen/api/hello"
 	"github.com/cloudwego/kitex/pkg/registry"
 	"github.com/cloudwego/kitex/server"
-	polaris "github.com/kitex-contrib/registry-polaris"
+	polaris "github.com/kanengo/kitex-registry-polaris"
 )
 
 const (

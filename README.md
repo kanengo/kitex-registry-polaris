@@ -5,7 +5,7 @@ It can be used to solve the problem of service connection, fault tolerance, traf
 
 ## How to install registry-polaris?
 ```
-go get -u github.com/kitex-contrib/registry-polaris
+go get -u github.com/kanengo/kitex-registry-polaris
 ```
 
 ## How to use with Kitex server?
@@ -22,7 +22,7 @@ import (
    	"github.com/cloudwego/kitex-examples/hello/kitex_gen/api"
    	"github.com/cloudwego/kitex-examples/hello/kitex_gen/api/hello"
    	"github.com/cloudwego/kitex/server"
-   	polaris "github.com/kitex-contrib/registry-polaris"
+   	polaris "github.com/kanengo/kitex-registry-polaris"
         ...
 )
 
@@ -71,7 +71,7 @@ import (
 	"github.com/cloudwego/kitex-examples/hello/kitex_gen/api"
 	"github.com/cloudwego/kitex-examples/hello/kitex_gen/api/hello"
 	"github.com/cloudwego/kitex/client"
-	polaris "github.com/kitex-contrib/registry-polaris"
+	polaris "github.com/kanengo/kitex-registry-polaris"
 	"github.com/polarismesh/polaris-go/pkg/config"
         ...
 )
